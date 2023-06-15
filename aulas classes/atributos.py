@@ -17,3 +17,6 @@ p2 = Pessoa('Daniel',20)
 
 print(p1.ano_nascimento())
 print(p2.ano_nascimento())
+
+# print(p1.__dict__)
+print(vars(p1))
