@@ -38,7 +38,8 @@ class C(B):
         print('Exquece')
 
     def metodo(self):
-        # super().metodo() Procura no metodo q esta passand oa heranca, no caso o 'B'
+        # super().metodo() Procura no y
+        # metodo q esta passand oa heranca, no caso o 'B'
         super(B,self).metodo() #Procura no 'A'
         print('C')
 
